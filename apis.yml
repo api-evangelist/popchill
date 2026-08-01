@@ -1,7 +1,26 @@
 aid: popchill
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popchill.png
 name: PopChill
-description: PopChill is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PopChill is Taiwan's largest secondhand luxury fashion trading platform,
+  operating as a mobile marketplace app for buying and selling authenticated pre-owned
+  designer goods including handbags, watches, jewelry, apparel, and footwear from
+  Chanel, Hermes, Louis Vuitton, Dior, Gucci, Prada, and 40+ other brands. The company
+  provides item authentication, secure transactions, and seller support to a consumer
+  audience. PopChill is backed by 500 Global. As of this enrichment pass the company
+  publishes no public developer portal, API documentation, or technical integration
+  surface; this profile tracks the company in the API Evangelist network pending any
+  future API program.
 url: https://raw.githubusercontent.com/api-evangelist/popchill/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Ecommerce
+- Marketplace
+- Fashion
+- Secondhand
+- Luxury Resale
+- Mobile App
+- Taiwan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/popchill-domain-security.yml
 - type: Website
   url: https://popchill.com
+- type: Support
+  url: https://popchillhelp.zendesk.com/hc/zh-tw
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
