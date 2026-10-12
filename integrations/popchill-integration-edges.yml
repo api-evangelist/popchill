@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/popchill/integrations
+- https://n8n.io/integrations/popchill/
+- https://composio.dev/toolkits/popchill
+- https://monid.ai/tools/popchill
+checked:
+- https://composio.dev/toolkits/popchill
+- https://monid.ai/tools/popchill
+- https://n8n.io/integrations/popchill/
+- https://zapier.com/apps/popchill/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
